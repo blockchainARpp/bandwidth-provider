@@ -1,0 +1,34 @@
+{
+  "name": "badwidth-service",
+  "version": "1.0.2",
+  "description": "Bandwidth provider service",
+  "main": "./src/Main.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "commun.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/communcom/bandwidth-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/communcom/bandwidth-provider/issues"
+  },
+  "homepage": "https://github.com/communcom/bandwidth-provider#readme",
+  "dependencies": {
+    "@types/node-fetch": "^2.1.4",
+    "@types/text-encoding": "0.0.35",
+    "cyberwayjs": "^20.0.2",
+    "dotenv": "^16.0.3",
+    "gls-core-service": "^3.25.2",
+    "node-fetch": "^2.3.0",
+    "text-encoding": "^0.7.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^6.0.1",
+    "jayson": "^2.1.1",
+    "prettier": "^1.17.1",
+    "ws": "^6.1.3"
+  }
+}
